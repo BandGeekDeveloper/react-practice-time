@@ -10,7 +10,7 @@ export default function Input() {
   
   return(
     <div>
-    <input/>
+    <input placeHolder='Hello'/>
       <pre>{currentTime.toLocaleTimeString()}</pre>
     </div>
   )
